@@ -12,15 +12,12 @@ avatar = media.Movie("Avatar",
     "http://ia.media-imdb.com/images/M/MV5BMTYwOTEwNjAzMl5BMl5BanBnXkFtZTcwODc5MTUwMw@@._V1_UY1200_CR90,0,630,1200_AL_.jpg",
     "https://youtu.be/5PSNL1qE6VY")
 
-#print avatar.title
-#print avatar.storyline
 
 head_of_state = media.Movie("Head of State",
     "A black man becomes president in 2004",
     "http://www.motherjones.com/files/imagecache/colorbox-large/photoessays/head_of_state.jpg",
     "https://www.youtube.com/watch?v=UT6ARbhTjiU")
 
-#head_of_state.show_trailer()
 
 the_x_files = media.Movie("The X-Files: Fight the Future",
     "Mulder and Scully investigate a bombing",
@@ -38,9 +35,4 @@ pitch_perfect_2 = media.Movie("Pitch Perfect 2",
     "https://youtu.be/OgPm-yaLoyo")
 
 movies = [toy_story, avatar, head_of_state, the_x_files, pitch_perfect, pitch_perfect_2]
-#fresh_tomatoes.open_movies_page(movies)
-print media.Movie.VALID_RATINGS
-print media.Movie.__doc__
-print media.Movie.__name__
-print media.Movie.__module__
-# print media.Movie.__repr__
+fresh_tomatoes.open_movies_page(movies)
